@@ -12,9 +12,9 @@ $$
 Donde:
 
 - $n$ : número de observaciones.  
-- $ x_i, y_i : valores individuales de las variables \(x\) y \(y\)$.  
-- $ \bar{x}  = \frac{1}{n}\sum_{i=1}^n x_i \)$: media de \(x\).  
-- $ \bar{y} = \frac{1}{n}\sum_{i=1}^n y_i \)$: media de \(y\).  
+- $ x_i, y_i$ : valores individuales de las variables x y y.  
+- $ \bar{x}  = \frac{1}{n}\sum_{i=1}^n x_i $: media de x.  
+- $ \bar{y} = \frac{1}{n}\sum_{i=1}^n y_i $: media de y.  
 - $ s_x $: desviación estándar muestral de x.  
 - $ s_y $: desviación estándar muestral de y.  
 
@@ -22,6 +22,11 @@ Las desviaciones estándar se definen como:
 
 $$
 s_x = \sqrt{\frac{1}{n-1}\sum_{i=1}^n (x_i - \bar{x})^2}
+$$
+
+Las medias se defienen como 
+$$
+ \frac{1}{n}\sum_{i=1}^n x_i
 $$
 
 ---
