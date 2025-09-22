@@ -1,14 +1,18 @@
 fn main() {
+    // factores iniciales modificar en base a lo que se quiere calcular.
     let muestra: f64 = 300.0;
     let pasos: u8 = 10;
     let factor_dilusion: i32 = 10;
-    let y: Vec<f64> = Vec::from([1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0]);
+
+    // calculos
+    let y: Vec<f64> = (1..=factor_dilusion).map(|x| x as f64).collect();
     let x = diluir(muestra, factor_dilusion as f64, pasos as usize);
     let r = calcular_r(&x, &y);
 
-    println!("Las muestras diluidas son: \n{:?}", x);
+    // imprimible
+    println!("Las muestras diluidas son:");
+    x.iter().for_each(|x| println!("{x} ng/µl"));
     println!("El r de la muestra es: {} \nEl r^2 es: {}", r, r.powi(2));
-    
 }
 
 //Funciones estdisticas-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
