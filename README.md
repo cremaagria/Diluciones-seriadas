@@ -2,7 +2,7 @@
 Programa desarrollado para calcular dilusiones seriadas en una muestra, y calcular la media, la desviacion estandar, el r y el r².
 
 ## Cálculo de la correlación de Pearson
-La fórmula general es:
+La fórmula general es $\frac{1}{2}$:
 
 $$
 r = \frac{1}{n-1}\sum_{i=1}^n \left( \frac{x_i - \bar{x}}{s_x} \right)\left( \frac{y_i - \bar{y}}{s_y} \right)
