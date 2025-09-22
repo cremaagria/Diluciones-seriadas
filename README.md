@@ -1,6 +1,7 @@
 # Diluciones-seriadas
-## Cálculo de la correlación de Pearson
+Programa desarrollado para calcular dilusiones serias en una muestra, y calcular la media, la desviacion estandar, el r y el r².
 
+## Cálculo de la correlación de Pearson
 La fórmula general es:
 
 $$
