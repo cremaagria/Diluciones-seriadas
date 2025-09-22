@@ -30,12 +30,4 @@ $$
 \bar{x} = \frac{1}{n}\sum_{i=1}^n x_i
 $$
 
----
-
-En resumen, la media se obtiene como:
-
-$$
-\bar{x} = \frac{\sum x_i}{n}, \quad \bar{y} = \frac{\sum y_i}{n}
-$$
-
 Asi mismo se calcula el coheficiente de determinación el cual es $r²$.
